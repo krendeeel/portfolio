@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { AiOutlineHome, AiOutlineUser, AiOutlineFolderOpen } from 'react-icons/ai';
-import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
+import { BiListCheck, BiMessageSquareDetail } from 'react-icons/bi';
 import { useLocation } from 'react-router-dom';
 
 const Nav = () => {
@@ -14,7 +14,6 @@ const Nav = () => {
         <nav>
             <a href='#'
                 data-href='#'
-                className=''
                 onClick={toLink}
                 className={activeNav === '#' ? 'active' : ''}
             >
@@ -32,7 +31,7 @@ const Nav = () => {
                 data-href='#experience'
                 onClick={toLink}
             >
-                <BiBook />
+                <BiListCheck />
             </a>
             <a href='#portfolio'
                 className={activeNav === '#portfolio' ? 'active' : ''}

@@ -18,14 +18,19 @@
         }
 
         &-image {
-            max-height: 200px;
-            object-fit: contain;
+            max-height: 250px;
             border-radius: 0.5rem;
             overflow: hidden;
+
+            // & img {
+            //     object-fit: cover;
+            //     height: 350px;
+            // }
         }
 
         & h3 {
             margin: 0.5rem 0;
+            text-align: center;
         }
 
         &-cta {

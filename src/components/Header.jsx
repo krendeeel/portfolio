@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { HiDownload } from 'react-icons/hi';
 import { IoMdCall } from 'react-icons/io';
 
-import cv from '../assets/1.pdf';
+import resume from '../assets/resume.pdf';
 import photo from '../assets/photo.png';
 import HeaderSocials from './HeaderSocials';
 
@@ -25,7 +25,7 @@ const Header = () => {
                 <h5 className='text-light'>Frontend разработчик</h5>
                 <div className='cta'>
                     <a
-                        href={cv}
+                        href={resume}
                         download
                         className='btn'
                     >

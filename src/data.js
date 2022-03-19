@@ -1,4 +1,9 @@
-import photo from './assets/photo.jpg';
+import reactNotes from './assets/react-notes.jpg';
+import reactPizza from './assets/react-pizza.jpg';
+import reactQR from './assets/qr-code-generator.jpg';
+import reactGame from './assets/react-game.jpg';
+import reactChat from './assets/react-chat.jpg';
+import nextBrand from './assets/next-brand.jpg';
 
 export const socials = {
     github: 'https://github.com/krendeeel',
@@ -39,39 +44,39 @@ export const experience = {
 
 export const portfolio = [
     {
-        title: 'React',
-        image: photo,
-        github: '',
-        demo: ''
+        title: 'Генератор QR-кода',
+        image: reactQR,
+        github: 'https://github.com/krendeeel/qrcode-generator',
+        demo: 'https://qrcode-generatorbykrendeeel.herokuapp.com'
     },
     {
-        title: 'React',
-        image: photo,
-        github: '',
-        demo: ''
+        title: 'Приложение заметок',
+        image: reactNotes,
+        github: 'https://github.com/krendeeel/react-notes',
+        demo: 'https://react-notes-by-krendeeel.herokuapp.com'
     },
     {
-        title: 'React',
-        image: photo,
-        github: '',
-        demo: ''
+        title: 'Крестики-нолики',
+        image: reactGame,
+        github: 'https://github.com/krendeeel/react-game',
+        demo: 'https://react-game-by-krendeeel.herokuapp.com'
     },
     {
-        title: 'React',
-        image: photo,
-        github: '',
-        demo: ''
+        title: 'Online чат',
+        image: reactChat,
+        github: 'https://github.com/krendeeel/chat-client',
+        demo: 'https://reactappchat-client.herokuapp.com'
     },
     {
-        title: 'React',
-        image: photo,
-        github: '',
-        demo: ''
+        title: 'Магазин доставки',
+        image: reactPizza,
+        github: 'https://github.com/krendeeel/react-pizza-front',
+        demo: 'https://react-pizza-client.herokuapp.com'
     },
     {
-        title: 'React',
-        image: photo,
-        github: '',
-        demo: ''
+        title: 'Полноценный интернет-магазин',
+        image: nextBrand,
+        github: 'https://github.com/krendeeel/nextbrand-client',
+        demo: 'https://nextbrand-front.herokuapp.com'
     }
 ]
