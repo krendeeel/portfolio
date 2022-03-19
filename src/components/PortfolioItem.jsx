@@ -22,7 +22,7 @@ const PortfolioItem = ({ image, title, github, demo }) => {
                     className='btn btn-primary'
                     target='_blank'
                 >
-                    <FiMonitor /> Live demo
+                    <FiMonitor /> Demo-версия
                 </a>
             </div>
         </article>
